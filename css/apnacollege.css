@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 5px 35px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.menu a {
+    color: #000000;
+    text-decoration: none;
+    gap: 20px;
+}
+
+.menu a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.college{
+    color:orange;
+    font-family:'Roboto Condensed', sans-serif;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    align-items: center;
+    background: #eee;
+
+}
+
+.alpha {
+    color: white;
+    background-color: blue;
+    border: white;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px;
+}
+
+.sign {
+    color: blue;
+    background-color: white;
+    border-color: blue;
+    padding: 10px;
+    border-radius: 5px ;
+}
+
+.heading {
+    
+    font-size: x-large;
+    width: 45%;
+
+}
+
+.picture {
+    width: 40%;
+}
+
+.picture img {
+    width: 80%;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.button {
+    color: white;
+    background-color: rgb(114, 114, 234);
+    padding: 10px 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-top: 30px;
+    border: none;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+#Courses {
+    background-color: rgb(114, 114, 234);
+    height: 200px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    gap: 100px;
+}
+
+#Courses h1 {
+    text-align: center;
+}
+
+#Resources {
+    margin-top: 80px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+#Resources h2 {
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 30px;
+}
+
+#Resources h1 {
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+    font-size: xx-large;
+}
+
+#Resources h4 {
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+    font-size: large;
+}
+
+#Resources button {
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    font-size: xx-large;
+    margin-left: 550px;
+    border-radius: 20px 20px;
+    border: none;
+    padding: 10px;
+    background-color: rgb(114, 114, 234);
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+#Home {
+    background-color: rgb(184, 184, 240);
+    height: 200px;
+    margin-top: 80px;
+}
+
+.job {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    color: black;
+    font-size: large;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+#Signup {
+    background-color: rgb(184, 184, 240);
+    height: auto;
+    border-bottom: 2px solid #000000;
+}
+
+.Sing {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Amazon {
+    width: 15%;
+}
+
+.Amazon img {
+    width: 100%;
+}
+
+.more {
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    color: black;
+}
+
+#students {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#students h3 {
+    text-align: center;
+    color: blue;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.Study {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0px 20px;
+}
+
+.selected {
+    width: 35%;
+    margin: 40px;
+}
+
+.selected img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#students  button {
+    width: 200px;
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(21, 128, 241);
+    margin-bottom: 80px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+#teach {
+    height: auto;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.completeimage{
+    width: 95%;
+}
+#teach img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.span{
+   
+    color: black;
+}
+.coll{
+    color: rgb(233, 162, 30);
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;    
+}
+.copy{
+    text-align: center;
+}
+#join {
+    background-color: rgb(184, 184, 240);
+   
+}
+
+.on {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    color: black;
+    font-size: large;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+#insta {
+    background-color: rgb(184, 184, 240);
+}
+
+.yout {
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.tele {
+    width: 40px;
+}
+
+.tele img {
+    width: 100%;
+}
